@@ -1,7 +1,7 @@
 {
-    "name": "plugin-template",
+    "name": "vault-picker",
     "version": "0.0.0",
-    "description": "",
+    "description": "Vault Picker",
     "main": "main.js",
     "scripts": {
         "dev": "node esbuild.config.mjs",
@@ -16,7 +16,7 @@
     },
     "standard-version": {
         "t": "",
-        "releaseCommitMessageFormat": "<plugin-template> Release: v{{currentTag}}"
+        "releaseCommitMessageFormat": "Vault Picker Release: v{{currentTag}}"
     },
     "keywords": [],
     "author": "",

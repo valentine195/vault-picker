@@ -2,9 +2,9 @@
     "id": "vault-picker",
     "name": "Vault Picker",
     "version": "0.0.0",
-    "minAppVersion": "",
+    "minAppVersion": "0.13.26",
     "author": "Jeremy Valentine",
-    "description": "",
+    "description": "Vault Picker",
     "authorUrl": "",
     "isDesktopOnly": false
 }
