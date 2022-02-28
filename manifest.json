@@ -1,6 +1,6 @@
 {
-    "id": "plugin-template",
-    "name": "",
+    "id": "vault-picker",
+    "name": "Vault Picker",
     "version": "0.0.0",
     "minAppVersion": "",
     "author": "Jeremy Valentine",
