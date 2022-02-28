@@ -26,8 +26,9 @@ export default class VaultPicker extends Plugin {
     }
     tryToReset() {
         try {
-            if (Platform.isMobile && this.settings.mobile) {
-                localStorage.removeItem("mobile-selected-vault");
+            if (Platform.isMobile) {
+                if (this.settings.mobile)
+                    localStorage.removeItem("mobile-selected-vault");
             } else if (this.settings.desktop) {
                 const fs = require("fs");
                 const path = require("path");
