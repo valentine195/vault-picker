@@ -1,1 +1,4 @@
-export interface PluginSettings {}
+export interface PluginSettings {
+    mobile: boolean;
+    desktop: boolean;
+}
